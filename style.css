@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background: #eaeaea;
+  color: #39393a;
+}
+
+#main {
+  background: #ffffff;
+  margin: 3rem 10rem;
+  border-radius: 10px;
+}
+
+.title {
+  font-size: 1.75rem;
+  color: #1b1b1b;
+}
+
+.subtitle {
+  font-size: 1.25rem;
+  color: #1b1b1b;
+  text-align: center;
+}
+
+.list {
+  font-size: 1rem;
+  line-height: 1.625rem;
+  list-style-position: inside;
+}
+
+.container {
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.description {
+  color: #8f8f8f;
+  font-size: 0.75rem;
+}
+
+#header {
+  display: grid;
+  text-align: center;
+}
+
+#header .title {
+  margin-top: 5rem;
+  margin-bottom: 1rem;
+}
+
+img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+#header .description {
+  text-align: right;
+  margin-bottom: 2rem;
+}
+
+#ingredients .list,
+#preparation .list {
+  display: grid;
+  margin-top: 1rem;
+  gap: 1rem;
+}
+
+#information {
+  display: grid;
+  gap: 1rem;
+}
+
+#information p {
+  margin-bottom: 2rem;
+}
+
+footer {
+  align-items: center;
+  text-align: center;
+  margin-bottom: 2.5rem;
+}
